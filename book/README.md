@@ -1,5 +1,4 @@
-# vimnotes
-vim notes
+# Introduction
 
 ## 到第一行
 
