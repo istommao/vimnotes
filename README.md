@@ -1,5 +1,4 @@
 # vimnotes
-vim notes
 
 ## 到第一行
 
@@ -43,4 +42,39 @@ o
 
 ```shell
 gg"*yG
+```
+
+
+## 复制全部行
+
+```shell
+gg"*yG
+```
+
+## 滚屏
+
+```shell
+
+# 向下滚动一行
+Ctrl + e
+
+
+# 向上滚动一行
+Ctrl + y
+
+
+# 向下滚动半屏
+Ctrl + d
+
+
+# 向上滚动半屏
+Ctrl + u
+
+
+# 向下滚动一屏
+Ctrl + f
+
+
+# 向上滚动一屏
+Ctrl + b
 ```
