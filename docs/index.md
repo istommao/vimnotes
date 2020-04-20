@@ -24,54 +24,31 @@ footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](http
 brew install vim
 ```
 
-## 基本操作
+## 插件管理 Vim-plug
 
-## 上下左右 移动
+Minimalist Vim Plugin Manager
 
-```shell
-    k
-   h l
-    j
-```
-
-## 在游标前附加
+[GitHub vim-plug](https://github.com/junegunn/vim-plug)
 
 ```shell
-i
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-## 在游标后附加
+## .vimrc 配置
 
 ```shell
-a
+
+call plug#begin('~/.vim/plugged')
+Plug 'gmarik/vundle'                          " Vim Package management
+Plug 'preservim/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'                     " 模糊查找
+Plug 'majutsushi/tagbar'                      " show tags of codes
+call plug#end()
 ```
 
-## 在行首附加
+更多关于 [配置管理](./conf)
 
-```shell
-I
-```
+## Cheat Sheet
 
-## 在行末附加
-
-```shell
-A
-```
-
-## 在下面新起一个空行
-
-```shell
-o
-```
-
-## 在上面新起一个空行
-
-```shell
-O
-```
-
-## 复制全部行
-
-```shell
-gg"*yG
-```
+[![J3iKmt.png](https://s1.ax1x.com/2020/04/20/J3iKmt.png)](https://s1.ax1x.com/2020/04/20/J3iKmt.png)

@@ -1,21 +1,5 @@
-# dumi app
+# Vim note
 
-## Getting Started
+View [website](http://vim.cattalk.in/)
 
-Install dependencies,
-
-```bash
-$ npm i
-```
-
-Start the dev server,
-
-```bash
-$ npm start
-```
-
-Build site app,
-
-```bash
-$ npm run build
-```
+![J3kHeI.png](https://s1.ax1x.com/2020/04/20/J3kHeI.png)
